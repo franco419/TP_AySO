@@ -1,0 +1,160 @@
+    1  clear
+    2  man -k manual$
+    3  pwd
+    4  sudo apt update
+    5  sudo apt install manpage-es manpage-es-extra
+    6  sudo apt install manpages-es manpages-es-extra
+    7  sudo apt install manpages-es
+    8  man man
+    9  sudo dpkg-reconfigure locales
+   10  man man
+   11  ssh-keygen
+   12  ssh-keygen ed25519
+   13  ssh-keygen -t ed25519
+   14  ls -la
+   15  cd .ssh/
+   16  ls -la
+   17  cat .ssh/id_ed25519.pub
+   18  ls -la
+   19  cat .ssh/id_ed25519.pub
+   20  cd ..
+   21  cat .ssh/id_ed25519.pub
+   22  ls -la
+   23  cat .ssh/id_ed25519.pub 
+   24  cd .ssh/
+   25  cat id_ed25519.pub 
+   26  cd ..
+   27  cd
+   28  mkdir repogit
+   29  ls -la
+   30  cd repogit/
+   31  ls -la
+   32  cd ..
+   33  ls -la
+   34  cd repogit/
+   35  ls -l
+   36  git clone git@github.com:franco419/TP_AySO.git
+   37  ls -la
+   38  cd TP_AySO/
+   39  ls -l
+   40  git status
+   41  touch archivo
+   42  ls -l
+   43  git status
+   44  git add .
+   45  git status
+   46  git commit -m "add: primer commit"
+   47  git config --global user.email "francoleonela45@gmail.com"
+   48  git config --global user.name "franco419"
+   49  git commit -m "add: primer commit"
+   50  git status
+   51  git push
+   52  pdw
+   53  pwd
+   54  ls -l
+   55  cat /etc/os-release
+   56  man grep
+   57  cat /etc/os-release
+   58  grep HOME_URL etc/os-release
+   59  grep HOME_URL
+   60  cd
+   61  cd repogit/
+   62  ls -la
+   63  cd TP_AySO/
+   64  ls -la
+   65  /etc/os-release
+   66  cd /etc/os-release
+   67  cat /etc/os-release 
+   68  grep -i HOME_URL
+   69  cd
+   70  cd repogit/
+   71  ls -l
+   72  cd TP_AySO/
+   73  ls -l
+   74  ls -la
+   75  clear
+   76  cd
+   77  mkdir repogit
+   78  ls -l
+   79  cd repogit/
+   80  pwd
+   81  cat /etc/os-release
+   82  man grep
+   83  grep HOME_URL /etc/os-release
+   84  grep home_url /etc/os-release
+   85  grep -i Home_URL /etc/os-release
+   86  whoami
+   87  echo “Usuario=$(whoami)” > datos_usuario.txt
+   88  git add .
+   89  git commit
+   90  ls -l
+   91  rm -f datos_usuario.txt 
+   92  ls -l
+   93  cd TP_AySO/
+   94  echo “Usuario=$(whoami)” > datos_usuario.txt 
+   95  ls -l
+   96  git add .
+   97  git config --global user.email "francoleonela45@gmail.com"
+   98  git config --global user.name "franco419"
+   99  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+  100  git status
+  101  cd
+  102  ls -la
+  103  cd /proc
+  104  ls -l
+  105  grep cpuinfo
+  106  head -n1
+  107  ls -l head -n1
+  108  cd ..
+  109  cd
+  110  cd repogit/TP_AySO/
+  111  ls -l
+  112  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+  113  grep datos_usuario.txt 
+  114  cat datos_usuario.txt 
+  115  commit status
+  116  git add .
+  117  git commit -m "feat: Añadiendo información de CPU"
+  118  git status
+  119  grep -v "nologin" /etc/passwd | head -n10 | sort -k7 > lista_ordenada
+  120  cat lista_ordenada 
+  121  git add lista_ordenada 
+  122  git commit -m "ADD: Listado de usuarios ordenada"
+  123  ls -la
+  124  man -k dump traffic
+  125  echo "tcpdump: dump traffic on a network" > comando_dump_net 
+  126  git add comando_dump_net 
+  127  git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+  128  ls -l
+  129  cat comando_dump_net 
+  130  cat << EOF >> README.md 
+Alumno: Franco
+Division: 318-2
+Turno: Noche
+EOF
+
+  131  git add .
+  132  git commit -m "Listado de Datos del Alumno con tecnicas de HereDoc"
+  133  history -w
+  134  pwd
+  135  ls -la ~/../.bash_history
+  136  ls -la ../../
+  137  ls -la ../../.bash_history 
+  138  cp ../../.bash_history >> Historial_comandos_franco.txt 
+  139  history -a
+  140  cp .bash_history >> historial_comandos_franco.txt
+  141  ls -la
+  142  cat historial_comandos_franco.txt 
+  143  rm -f historial_comandos_franco.txt 
+  144  ls -la
+  145  rm -f historial_comandos_franco.txt 
+  146  ls -la
+  147  rm -r historial_comandos_franco.txt 
+  148  ls -la
+  149  cd
+  150  history -a
+  151  cd repogit/TP_AySO/
+  152  cp .bash_history >> historial_comandos_franco.txt
+  153  ls -la
+  154  rm -r historial_comandos_franco.txt 
+  155  history > historial_comandos_franco.txt
