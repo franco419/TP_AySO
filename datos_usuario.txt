@@ -1,1 +1,2 @@
 “Usuario=vagrant”
+model name	: AMD A8-5600K APU with Radeon(tm) HD Graphics
